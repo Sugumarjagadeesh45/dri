@@ -3,7 +3,9 @@
 import { io } from "socket.io-client";
 import { Alert } from "react-native";
 
-const socket = io("https://goodbackend.onrender.com", { // Android emulator
+// https://goodbackend.onrender.com
+
+const socket = io("https://23289081430e.ngrok-free.app", { // Android emulator
  transports: ["polling", "websocket"], 
   autoConnect: false,
   reconnection: true,

@@ -1,4 +1,3 @@
-// D:\newapp\driverapp-main\driverapp-main\src\Screen1.tsx
 import React, { useState, useEffect, useRef } from "react";
 import {
   View,
